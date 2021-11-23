@@ -1,0 +1,41 @@
+$color-primary-1: #b61919;
+$color-primary-2: rgb(145, 31, 39);
+$color-button: rgb(255, 204, 29);
+$color-header: rgb(247, 136, 18);
+$color-button-shadow: rgb(255, 206, 69);
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(to right, $color-primary-1, $color-primary-2);
+}
+
+h1 {
+  margin: 2rem 2rem;
+  color: $color-header;
+}
+
+button {
+  font-family: "Press Start 2P", cursive;
+  background-color: $color-header;
+  padding: 1rem;
+  box-shadow: 0.25rem 0.35rem $color-button;
+}
+
+input {
+  width: 5rem;
+  border-radius: 0;
+}

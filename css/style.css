@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#b61919), to(#911f27));
+  background: linear-gradient(to right, #b61919, #911f27);
+}
+
+h1 {
+  margin: 2rem 2rem;
+  color: #f78812;
+}
+
+button {
+  font-family: "Press Start 2P", cursive;
+  background-color: #f78812;
+  padding: 1rem;
+  -webkit-box-shadow: 0.25rem 0.35rem #ffcc1d;
+          box-shadow: 0.25rem 0.35rem #ffcc1d;
+}
+
+input {
+  width: 5rem;
+  border-radius: 0;
+}
+
+.left {
+  display: block;
+}
+
+.square {
+  background-color: white;
+}
+
+.color {
+  background-color: black;
+}
+
+.gridContainer {
+  margin-top: 8rem;
+  margin-left: 1rem;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: (2fr)[16];
+      grid-template-columns: repeat(16, 2fr);
+  -ms-grid-rows: (2fr)[16];
+      grid-template-rows: repeat(16, 2fr);
+  border: 0.5rem solid #911f27;
+  border-radius: 0.5rem;
+  height: 50rem;
+  width: 50rem;
+}
+
+.reset {
+  border: none;
+}
+
+.reset:active {
+  -webkit-transform: translateY(0.5rem);
+          transform: translateY(0.5rem);
+}
