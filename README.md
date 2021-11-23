@@ -1,4 +1,4 @@
-# Calculator
+# Etch-A-Sketch
 
 ## Table of contents
 
